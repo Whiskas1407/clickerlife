@@ -7,13 +7,13 @@
       <div class="header__menu">
         <ul>
           <li>
-            <a href="#">Магазин</a>
+            <nuxt-link to="/shop">Магазин</nuxt-link>
           </li>
           <li>
             <a href="#">Статистика</a>
           </li>
           <li>
-            <a href="#">Работа</a>
+            <nuxt-link to="/work">Работа</nuxt-link>
           </li>
           <li>
             <nuxt-link to="/inventory">Имущество</nuxt-link>

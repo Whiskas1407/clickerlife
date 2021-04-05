@@ -7,7 +7,7 @@
       </div>
       <div class="info__user-block">
         <p class="info__user-balance">Баланс: {{ user.balance }} $</p>
-        <button class="info__user-btn" @click="addToBalance">ЗАРАБОТАТЬ ДЕНЕГ</button>
+        <button class="info__user-btn" @click="addToBalance">Погрузить мешки ( +1$)</button>
       </div>
     </div>
   </div>
@@ -21,7 +21,7 @@ export default {
   },
   methods: {
     addToBalance() {
-      this.$store.commit('CLICK')
+      this.$store.commit('CLICK', 1)
     }
   }
 }
